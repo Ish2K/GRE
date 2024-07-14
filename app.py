@@ -7,7 +7,7 @@ import pandas as pd
 
 st.title('GRE Word Practice')
 
-df = pd.read_csv("vocab.csv")
+df = pd.read_csv("vocab_combined.csv")
 df.columns = ["word", "meaning", "example"]
 obj = None
 
